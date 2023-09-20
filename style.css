@@ -1,0 +1,202 @@
+body {
+    background-color: #F6F7F9;
+}
+
+section {
+    height: 70vh;
+    background-color: #FFF;
+    width: 50vw;
+    margin: 15vh auto;
+    border-radius: 10px;
+
+}
+
+.titulo {
+    padding: 4vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.form {
+    background-color: #ffffff;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+input {
+    width: 10vw;
+  height: 45px;
+  line-height: 30px;
+  padding: 0 5rem;
+  padding-left: 3rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f8fafc;
+  color: #0d0c22;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+input:focus, input:hover {
+    outline: none;
+    border-color: rgba(129, 140, 248);
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+    transition: .5s ease;
+  }
+
+.central {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+}
+
+img {
+    height: 15px;
+    position: absolute;
+    left: 3.5vw;
+    top: 2.5vh;
+}
+
+a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 35px;
+    color: #E5E5E5;
+}
+
+#separador {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #f8fafc;
+    top: 0;
+    right: -6px;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 3vh;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+}
+
+.icon {
+    height: 36px;
+    position: static;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+button {
+    height: 45px;
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #3563E9;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 18px;
+}
+
+button:focus, button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #2b50c0;
+    transition: .5s ease;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.registrar p {
+    text-align: center;
+    margin: 2vh auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+}
+
+/* Campo senha */
+
+.password-label {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-label svg {
+    width: 15px;
+    height: auto;
+    color: #90A3BF;
+  }
+  
+  .password-label input:hover,
+  .password-label input:focus {
+    border-color: none;
+  }
+  
+  .password-label input:valid:hover, .password-label input:valid:focus {
+    outline: none;
+    border-color: #039555;
+    background-color: #fff;
+    box-shadow: 0 0 0 5px #03955671;
+    transition: .5s ease;
+  }
+
+  .password-label input:valid {
+    background-color: #0395562d;
+    color: #039555;
+  }
+  
+  .password-label input:valid~.open {
+    display: none;
+  }
+  
+  .password-label input:valid~.close {
+    display: block;
+  }
+  
+  .password-label svg {
+    position: absolute;
+    left: 1.5vw;
+    top: 2.5vh;
+  }
+  
+  .close {
+    display: none;
+  }
